@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Invitation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="hello-kitty"></div>
+        <h1>Will You Be My Valentine?</h1>
+        <div class="message">
+            <p>Dear <span id="name">[Your Name]</span>,</p>
+            <p>You make my heart smile every day! 💖</p>
+            <p>Will you be my Valentine?</p>
+        </div>
+        <div class="interaction">
+            <button id="yesBtn">Yes 💕</button>
+            <button id="noBtn">No 😅</button>
+        </div>
+        <div id="response"></div>
+        <div class="hearts"></div>
+
+        <!-- Hidden popup -->
+    <div id="kittyPopup" class="popup">
+        <div class="popup-content">
+            <img src="hellokitty.jpg" alt="Hello Kitty" class="kitty-img">
+            <h2>Yay! 💕 I can’t wait!</h2>
+            <p><strong>Where:</strong> Vertis North, QC </p>
+            <p><strong>When:</strong> February 14th</p>
+            <p><strong>Time:</strong> 1:00 PM </p>
+            <p class="poem">
+                O, fairest maiden, with thine eyes so round,<br>
+                Like moonlit pools that shimmer and astound,<br>
+                And lips, they curve in sweet, inviting smile,<br>
+                A rosebud's promise of love's gentle trial.<br>
+                On Valentine's Day, I pen this verse,<br>
+                To praise thy eyes and lips, a heavenly traverse.<br>
+                Forever bound by love's sweet, secret tie,<br>
+                My heart, a captive to thy lovely eye."
+            </p>
+            <button id="closePopup">Close 💌</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
